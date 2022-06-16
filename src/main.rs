@@ -4,7 +4,8 @@ use ggez::{Context, ContextBuilder, GameError, GameResult};
 use glam::*;
 
 fn main() {
-    let (mut ctx, event_loop) = ContextBuilder::new("Paint UDP", "Mateusz Grzonka")
+    let (mut ctx, event_loop) = ContextBuilder::new("Paint", "Mateusz Grzonka")
+        .window_setup(ggez::conf::WindowSetup::default().title("Paint!"))
         .build()
         .expect("Error creating ggez context!");
 

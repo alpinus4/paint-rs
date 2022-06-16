@@ -1,2 +1,4 @@
 # paint-rs
-Drawing app with multiplayer functionality using UDP sockets and Rust.
+Simple drawing app in Rust.
+
+![](paint.png)
